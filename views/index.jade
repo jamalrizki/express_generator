@@ -3,3 +3,11 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  <form action="/users/login" method="POST">
+  <p>
+  username: <input type="text" name="username" value=""/>
+  password: <input type="text" name="password" value=""/>
+  </p>
+  <input type="submit" value="Submit"/>
+  </form>
+
