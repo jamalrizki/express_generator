@@ -1,1 +1,5 @@
 node_modules
+bin/server.key 
+bin/server.cert
+index.html
+config.js
