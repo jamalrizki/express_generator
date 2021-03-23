@@ -1,5 +1,5 @@
 node_modules
 bin/server.key 
 bin/server.cert
-/index.html
+public/index.html
 /config.js
